@@ -14,6 +14,6 @@ send(var_1)
 - Run silent `python main.py script.js -s`
 
 ## Syntax
-`send("message-here")` - Prints to console
-`variable(name="variable-name", value="variable-value")` - Stores a value by name, can be used in `send()`.
-`wait(number-here)` - Waits the entered amount in seconds.
+- `send("message-here")` - Prints to console
+- `variable(name="variable-name", value="variable-value")` - Stores a value by name, can be used in `send()`.
+- `wait(number-here)` - Waits the entered amount in seconds.
