@@ -5,7 +5,7 @@ import time
 
 variables = {}
 
-def send(message):
+def log(message):
     print("Sending message:", message)
 
 def wait(duration):
