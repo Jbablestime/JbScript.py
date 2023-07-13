@@ -5,7 +5,7 @@ Jb Script is a custom coding language coded in Python, it makes Python easier to
 ```
 variable(name="var_1", value="This is the var_1 value")
 wait(5)
-send(var_1)
+log(var_1)
 ```
 
 ## Run Code
@@ -14,8 +14,8 @@ send(var_1)
 - Run silent `python main.py script.jb -s`
 
 ## Syntax
-- `send("message-here")` - Prints text to console.
-- `variable(name="variable-name", value="variable-value")` - Stores a value by name, can be used in `send()`.
+- `log("message-here")` - Prints text to console.
+- `variable(name="variable-name", value="variable-value")` - Stores a value by name, can be used in `log()`.
 - `wait(number-here)` - Waits the entered amount in seconds.
 
 ## Color Formatting (Notepad++ Only)
