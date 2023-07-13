@@ -17,3 +17,7 @@ send(var_1)
 - `send("message-here")` - Prints text to console.
 - `variable(name="variable-name", value="variable-value")` - Stores a value by name, can be used in `send()`.
 - `wait(number-here)` - Waits the entered amount in seconds.
+
+## Color Formatting (Notepad++ Only)
+- You can use `format.xml` to add color to your code.
+
