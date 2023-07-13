@@ -11,9 +11,9 @@ send(var_1)
 ## Run Code
 - CD to the directory holding the Jb Script folder.
 - Run `python main.py script.jb`
-- Run silent `python main.py script.js -s`
+- Run silent `python main.py script.jb -s`
 
 ## Syntax
-- `send("message-here")` - Prints to console
+- `send("message-here")` - Prints text to console.
 - `variable(name="variable-name", value="variable-value")` - Stores a value by name, can be used in `send()`.
 - `wait(number-here)` - Waits the entered amount in seconds.
